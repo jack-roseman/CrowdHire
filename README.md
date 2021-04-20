@@ -25,7 +25,9 @@ Total points overall: 16
 
 Quality Control and Aggregation Input/Output Description:
 
-Quality Control Input: After collecting our data from our MTurk output, we have a csv file with question type as columns and data for each HIT in the rows. The columns include preliminary data, such as HIT ID, Worker ID, question names. Additionally, we have data containing a specific workers’ answers to the questions. For Q1, we indicate a selected response by a numerical value inputted into the respective cell to represent number of years of experience. For Q2 and Q3, the answers are selected from a drop-down menu, which are represented as single string answers (highest degree achieved and position held). Similar to Q1, Q4 indicated selected skills inputted into the respective cells as a boolean. Additionally, the remaining columns represent each worker’s answers to the questions in the Gold standard resume.
+Quality Control Input: 
+
+After collecting our data from our MTurk output, we have a csv file with question type as columns and data for each HIT in the rows. The columns include preliminary data, such as HIT ID, Worker ID, question names. Additionally, we have data containing a specific workers’ answers to the questions. For Q1, we indicate a selected response by a numerical value inputted into the respective cell to represent number of years of experience. For Q2 and Q3, the answers are selected from a drop-down menu, which are represented as single string answers (highest degree achieved and position held). Similar to Q1, Q4 indicated selected skills inputted into the respective cells as a boolean. Additionally, the remaining columns represent each worker’s answers to the questions in the Gold standard resume.
 
 Each worker’s responses for a hit are recorded in an individual row. Each row contains one HIT where a worker analyzes three resumes and a gold standard. Since we created fake data and we do not have actual MTurk output, we are missing columns, such as time started, date approved, etc. for each HIT.
 
