@@ -23,7 +23,7 @@ Analyze data (work required: 4)
 
 Total points overall: 16
 
-Quality Control and Aggregation Input/Output Description:
+Quality Control and Aggregation Input/Output Description: A files can be found in "Sample InputOutput QC and Aggregation" Excel file (see sheet names for each part).
 
 Quality Control Input: 
 
