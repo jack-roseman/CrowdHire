@@ -31,14 +31,14 @@ After collecting our data from our MTurk output, we have a csv file with questio
 
 Each worker’s responses for a hit are recorded in an individual row. Each row contains one HIT where a worker analyzes three resumes and a gold standard. Since we created fake data and we do not have actual MTurk output, we are missing columns, such as time started, date approved, etc. for each HIT.
 
-Quality Control Output
+Quality Control Output:
 
 This file is the exact same as the input, except it contains a column “GS pass?” that indicates whether or not the worker, completing a specific HIT, passed the gold standard resume. Furthermore, the workers’ answers to the Gold standard questions are removed. “GS pass?” (boolean) is determined by comparing each workers’ answers in the GS section of the QC input to the correct answers (which we will create).
 
-Aggregation Input
+Aggregation Input:
 
 This file contains identical columns, rows, and data as the QC output, however, the rows that contained FALSE for the gold standard are not included in this input (we did not include any such workers in our fake data). 
 
-Aggregation Output
+Aggregation Output:
 
 This file compiles the answers for 3 hits (three different workers) of a specific resume into an aggregated answer for each question of that resume. For Q1, if there is a majority value among the three answers for years of experience, we take the majority as the aggregate output. If not, we use the average of the three answers. For Q2 and Q3, we use the majority value for the highest degree and most recent job title. For Q4, we again use the majority value of booleans to determine the aggregated responses for each skill in each resume.
