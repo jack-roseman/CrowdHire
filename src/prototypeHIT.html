@@ -1,0 +1,268 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<style>
+  .Q1answer {
+    padding-left: 20px;
+    display: inline-block;
+  }
+  .question {
+    margin: 10px;
+  }
+  .Q4answer {
+    padding-left: 20px;
+    display: inline-block;
+  }
+</style>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+<!-- Use the short-instructions section for quick instructions that the Worker
+      will see while working on the task. Including some basic examples of 
+      good and bad answers here can help get good results. You can include 
+      any HTML here. -->
+<short-instructions
+  >Please choose the correct category for the document</short-instructions
+>
+
+<!-- Use the full-instructions section for more detailed instructions that the 
+      Worker can open while working on the task. Including more detailed 
+      instructions and additional examples of good and bad answers here can
+      help get good results. You can include any HTML here. -->
+<full-instructions header="Document Classification Instructions">
+  <p>Read the task carefully and inspect the document.</p>
+  <p>Choose the appropriate label that best suits the document.</p>
+</full-instructions>
+
+<div style="width: 100%">
+  <div style="width: 50%; height: 100px; float: left; background: green">
+    <iframe
+      src="https://static1.squarespace.com/static/5f30553fe9068c441a5c5aa8/t/605b694d138a821117a3ea37/1616603510853/JackRoseman2021.pdf"
+      style="width: 100%; height: 600px"
+      type="application/pdf"
+    ></iframe>
+  </div>
+  <div style="margin-left: 50%; height: 100%; padding: 100px">
+    <!-- You must include crowd-form so that your task submits answers to MTurk -->
+    <crowd-form answer-format="flatten-objects">
+      <div class="question">
+        <p style="font-weight: bold">Years of experience by industry:</p>
+        <div class="Q1answer">
+          <p>Finance</p>
+          <select name="Finance" id="Q1.finance" style="block: inline">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+        <div class="Q1answer">
+          <p>Entertainment</p>
+          <select name="Entertainment" id="Q1.entertainment">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+
+        <div class="Q1answer">
+          <p>Healthcare</p>
+          <select name="Healthcare" id="Q1.healthcare">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+
+        <div class="Q1answer">
+          <p>Government</p>
+          <select name="Government" id="Q1.government">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+
+        <div class="Q1answer">
+          <p>Sports</p>
+          <select name="Sports" id="Q1.sports">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+        <div class="Q1answer">
+          <p>Technology</p>
+          <select name="Technology" id="Q1.technology">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+        <div class="Q1answer">
+          <p>Manufacturing</p>
+          <select name="Manufacturing" id="Q1.manufacturing">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+        <div class="Q1answer">
+          <p>Law</p>
+          <select name="Law" id="Q1.law">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+        <div class="Q1answer">
+          <p>Service Industry</p>
+          <select name="Service Industry" id="Q1.serviceindustry">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+        <div class="Q1answer">
+          <p>Other</p>
+          <select name="Other" id="Q1.other">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value=">5">>5</option>
+          </select>
+        </div>
+      </div>
+      <div class="question">
+        <p style="font-weight: bold">
+          Education level (highest level achieved):
+        </p>
+        <div class="Q2answer">
+          <select name="Education Level" id="Q2.educationlevel" required>
+            <option value="high school">High School Diploma</option>
+            <option value="ged">G.E.D.</option>
+            <option value="associate">Associate's Degree or Certificate</option>
+            <option value="bachelors">Bachelor's Degree</option>
+            <option value="masters">Master's Degree</option>
+            <option value="Advanced">
+              Ph.D or Advanced Professional Degree
+            </option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="question">
+        <p style="font-weight: bold">
+          Most recent job title or position held (best fit):
+        </p>
+        <div class="Q3answer">
+          <select name="Job Title" id="Q3.jobtitle" required>
+            <option value="Assistant">Assistant</option>
+            <option value="Analyst">Analyst</option>
+            <option value="Associate">Associate</option>
+            <option value="Director">Director</option>
+            <option value="CEO">CEO</option>
+            <option value="Founder">Founder</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="question">
+        <p style="font-weight: bold">Skills:</p>
+        <div class="Q4answer">
+          <p>Communication</p>
+          <select name="Communication" id="Q4.communication" style="block: inline">
+            <option value="TRUE">True</option>
+            <option value="FALSE" selected>False</option>
+          </select>
+        </div>
+        <div class="Q4answer">
+          <p>Customer Service</p>
+          <select name="Customer Service" id="Q4.customer_service" style="block: inline">
+            <option value="TRUE">True</option>
+            <option value="FALSE" selected>False</option>
+          </select>
+        </div>
+        <div class="Q4answer">
+          <p>Leadership</p>
+          <select name="Leadership" id="Q4.leadership" style="block: inline">
+            <option value="TRUE">True</option>
+            <option value="FALSE" selected>False</option>
+          </select>
+        </div>
+        <div class="Q4answer">
+          <p>Organization/Planning</p>
+          <select name="Organization/Planning" id="Q4.organization/planning" style="block: inline">
+            <option value="TRUE">True</option>
+            <option value="FALSE" selected>False</option>
+          </select>
+        </div>
+        <div class="Q4answer">
+          <p>Collaboration</p>
+          <select name="Collaboration" id="Q4.collaboration" style="block: inline">
+            <option value="TRUE">True</option>
+            <option value="FALSE" selected>False</option>
+          </select>
+        </div>
+        <div class="Q4answer">
+          <p>Problem-Solving</p>
+          <select name="Problem-Solving" id="Q4.problem_solving" style="block: inline">
+            <option value="TRUE">True</option>
+            <option value="FALSE" selected>False</option>
+          </select>
+        </div>
+        <div class="Q4answer">
+          <p>Time Management</p>
+          <select name="Time Management" id="Q4.time_management" style="block: inline">
+            <option value="TRUE">True</option>
+            <option value="FALSE" selected>False</option>
+          </select>
+        </div>
+        <div class="Q4answer">
+          <p>Creativity</p>
+          <select name="Creativity" id="Q4.creativity" style="block: inline">
+            <option value="TRUE">True</option>
+            <option value="FALSE" selected>False</option>
+          </select>
+        </div>
+    </crowd-form>
+  </div>
+</div>
