@@ -21,8 +21,9 @@
       will see while working on the task. Including some basic examples of 
       good and bad answers here can help get good results. You can include 
       any HTML here. -->
-<short-instructions
-  >Please choose the correct category for the document</short-instructions
+<short-instructions>
+  <p>Extract resume data.</p>
+</short-instructions
 >
 
 <!-- Use the full-instructions section for more detailed instructions that the 
@@ -30,8 +31,11 @@
       instructions and additional examples of good and bad answers here can
       help get good results. You can include any HTML here. -->
 <full-instructions header="Document Classification Instructions">
-  <p>Read the task carefully and inspect the document.</p>
-  <p>Choose the appropriate label that best suits the document.</p>
+  <p>For each resume, please indicate: </p>
+  <p>1) The years of experience in each industry that the resume owner has worked in. Use the "Other" option if they worked in an industry not listed.</p>
+  <p>2) The highest level of education completed according to the resume.</p>
+  <p>3) The title of the most recent work position indicated on the resume.</p>
+  <p>4) Whether or not the resume suggests that the applicant possesses each listed skill. Set the dropdown to "True" for each skill listed that you think the resume displays.</p>
 </full-instructions>
 
 <div style="width: 100%">
