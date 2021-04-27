@@ -82,4 +82,8 @@ If you have any issues/questions, please reach out to theog26@wharton.upenn.edu
 
 ________________________________________________________________
 
+Analysis:
 
+Type of Analysis: We are going to do an analysis of worker skills and quality control.
+
+In order to do this analysis, we are going to publish a HIT on MTurk that will act as a quality control HIT in order to gather a set of quality workers that we know have answered the gold standard resumes correctly. Then, once we have this set of resumes, we will publish two more batches of HITs with identical resumes: one to the quality workers, and one to the general crowd. Lastly, we will compare the labeling of the resumes to each other to determine whether or not the quality control workers labeled the resumes differently than a random group. Perhaps, we may additionally look at which questions had the most similarities in order to determine the best set of questions to pose to the crowd.
