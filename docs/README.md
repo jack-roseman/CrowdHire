@@ -55,7 +55,7 @@ ________________________________________________________________
 
 Instructions for our HIT:
 
-Please click (HERE)[https://workersandbox.mturk.com/projects/3NAD71TD7UBSLV16NWKHYS7FDY42LY/tasks/366FYU4PTGP7R5XTCBT7ABH8RM0EK1?assignment_id=3MTMREQS4VIYJC8SBMFQRNGSQB0WA2&auto_accept=true] to access the link.
+Please click [HERE](https://workersandbox.mturk.com/projects/3NAD71TD7UBSLV16NWKHYS7FDY42LY/tasks/366FYU4PTGP7R5XTCBT7ABH8RM0EK1?assignment_id=3MTMREQS4VIYJC8SBMFQRNGSQB0WA2&auto_accept=true) to access the link.
 
 In order to reduce the burden on HR teams and recruiters and decrease bias in the recruiting process, we think we can leverage crowdsourcing in order to rank resumes of candidates. In this HIT, we ask that workers use their intuition and reading skills in order to rate resumes using the following form. Please read the resume carefully and pay attention to detail. See step by step instructions below:
 
@@ -76,7 +76,7 @@ Using your PDF viewer, highlight the information that you wish to redact.
 Go the “tools” option and select the “redact” tool
 If you have a Mac that has not been updated to BigSur, you will simply need to add a solid black box on top of the information you wish to be hidden.
 Click save
-Then upload the redacted resume (HERE)[https://tinyurl.com/resume213]
+Then upload the redacted resume [HERE](https://tinyurl.com/resume213)
 
 If you have any issues/questions, please reach out to theog26@wharton.upenn.edu
 
