@@ -22,6 +22,7 @@ Analyze data (work required: 4)
 -Calculate metrics and final results based on data collected by the crowd. Depending on requirements this could be a presentation of data in a usable format, a ranking of resumes based on given requirements, or labeling resumes with certain keywords so that they are easily searchable for an interested employer.
 
 Total points overall: 16
+________________________________________________________________________________________________________
 
 Quality Control and Aggregation Input/Output Description: A files can be found in "Sample InputOutput QC and Aggregation" Excel file (see sheet names for each part).
 
@@ -49,3 +50,40 @@ The quality control module handles filtering the dataset down into only quality 
 
 Aggregation Module:
 The file BasicAgg.ipynb handles the aggregation module of the project in a basic fashion. It takes in a file path as input to the processInput function in order to run. The processInput function takes in the results of the quality control module (a csv file) and creates a pandas dataframe for it. The dataframe is then broken down so that there are seperate rows for each of the three resumes in each HIT. The three dataframes that result from this broken down input are passed to aggregateInput. Aggregate input combines the three dfs into one again and performs basic aggregation. For each question in each resume it takes the mode of the question responses to be the aggregated response. It does not do any backup aggregation besides taking the majority, so further work may be required to add a second aggregation function just in case.
+
+________________________________________________________________
+
+Instructions for our HIT:
+
+Please click [HERE](https://workersandbox.mturk.com/projects/3NAD71TD7UBSLV16NWKHYS7FDY42LY/tasks/366FYU4PTGP7R5XTCBT7ABH8RM0EK1?assignment_id=3MTMREQS4VIYJC8SBMFQRNGSQB0WA2&auto_accept=true) to access the link.
+
+In order to reduce the burden on HR teams and recruiters and decrease bias in the recruiting process, we think we can leverage crowdsourcing in order to rank resumes of candidates. In this HIT, we ask that workers use their intuition and reading skills in order to rate resumes using the following form. Please read the resume carefully and pay attention to detail. See step by step instructions below:
+
+Please read the provided resume, taking mental notes of the years of experience, most recent job position, and skills.
+Once you have completed reading the resume, please look at the questions provided and fill out the form using the information you have from the resume. 
+If a certain skill is not listed on the resume, please do not list it on the form. 
+If the industry is not listed in the form, please use the “Other” option. If there are multiple not listed, please choose the one where the person worked the longest.
+If the resume has information on years of experience in multiple industries, please list all the industries that you see.
+For the most recent job title, please copy and paste the position title as specified on the resume.
+Once you have completed all of the questions, please click “Submit.” If you do not answer all of the questions, your attempt will not be accounted for.
+
+Instructions for Resume Collection:
+
+In order to remove some of the biases that come about during the recruiting process, we hope to collect resumes with all personal information (i.e., name, address, number, etc.) redacted. As a result, we need people to redact such information before sending us their resumes.
+
+Open up your resume as a PDF in Acrobat, Preview or another PDF viewer
+Using your PDF viewer, highlight the information that you wish to redact.
+Go the “tools” option and select the “redact” tool
+If you have a Mac that has not been updated to BigSur, you will simply need to add a solid black box on top of the information you wish to be hidden.
+Click save
+Then upload the redacted resume [HERE](https://tinyurl.com/resume213)
+
+If you have any issues/questions, please reach out to theog26@wharton.upenn.edu
+
+________________________________________________________________
+
+Analysis:
+
+Type of Analysis: We are going to do an analysis of worker skills and quality control.
+
+In order to do this analysis, we are going to publish a HIT on MTurk that will act as a quality control HIT in order to gather a set of quality workers that we know have answered the gold standard resumes correctly. Then, once we have this set of resumes, we will publish two more batches of HITs with identical resumes: one to the quality workers, and one to the general crowd. Lastly, we will compare the labeling of the resumes to each other to determine whether or not the quality control workers labeled the resumes differently than a random group. Perhaps, we may additionally look at which questions had the most similarities in order to determine the best set of questions to pose to the crowd.

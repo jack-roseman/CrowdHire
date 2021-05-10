@@ -31,17 +31,22 @@
       instructions and additional examples of good and bad answers here can
       help get good results. You can include any HTML here. -->
 <full-instructions header="Document Classification Instructions">
-  <p>For each resume, please indicate: </p>
-  <p>1) The years of experience in each industry that the resume owner has worked in. Use the "Other" option if they worked in an industry not listed.</p>
-  <p>2) The highest level of education completed according to the resume.</p>
-  <p>3) The title of the most recent work position indicated on the resume.</p>
-  <p>4) Whether or not the resume suggests that the applicant possesses each listed skill. Set the dropdown to "True" for each skill listed that you think the resume displays.</p>
+    <p>1) Please read the provided resume, taking mental notes of the years of experience, most recent job position, and skills.</p>
+    <p>2) Once you have completed reading the resume, please look at the questions provided and fill out the form using the information you have from the resume.</p>
+    <ol>
+        <li>The years of experience in each industry that the resume owner has worked in. Use the "Other" option if they worked in an industry not listed. If the resume owner has been in multiple, count the years of experience in each one.</li>
+        <li>The highest level of education completed according to the resume. If they haven't graduated yet, or are a candidate for a degree, then they would not have achieved this degree yet.</li>
+        <li>The title of the most recent work position indicated on the resume. Please copy and paste this from the resume.</li>
+        <li>Whether or not the resume suggests that the applicant possesses each listed skill. Set the dropdown to "True" for each skill listed that you think the resume displays.</li>
+    </ol>
+    <p>3) Once you have completed all of the questions, please click “Submit.” If you do not answer all of the questions, your attempt will not be accounted for.</p>
+  <p>Still confused? See a detailed instruction video <a href="https://vimeo.com/542304174" target="_blank">here</a> which explains how to do the HIT.</p>
 </full-instructions>
 
 <div style="width: 100%">
   <div style="width: 50%; height: 100px; float: left; background: green">
     <iframe
-      src="https://static1.squarespace.com/static/5f30553fe9068c441a5c5aa8/t/605b694d138a821117a3ea37/1616603510853/JackRoseman2021.pdf"
+      src="${document_url}"
       style="width: 100%; height: 600px"
       type="application/pdf"
     ></iframe>
@@ -198,7 +203,7 @@
           Most recent job title or position held (copy and paste into box; ex: software engineer or product manager):
         </p>
         <div class="Q3answer">
-          <input id="Q3.jobtitle" placeholder="Enter job title" type="text" name="Job Title">
+          <input id="Q3.jobtitle" placeholder="Enter job title" type="text" name="Job Title" required>
         </div>
       </div>
       <div class="question">
