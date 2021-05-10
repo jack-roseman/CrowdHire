@@ -1,0 +1,13 @@
+ResumeID,Collaboration,Communication,Creativity,Customer Service,Education Level,Entertainment,Finance,Government,Healthcare,Job Title,Law,Leadership,Manufacturing,Organization/Planning,Other,Problem-Solving,Service Industry,Sports,Technology,Time Management
+1,True,True,False,False,high school,0,3,0,0,Private Equity Associate – Enterprise Software and Technology-Enabled Services,0,True,0,False,0,False,0,0,0,False
+10,True,False,False,False,high school,0,0,0,1,Accelerator Challenge Technical Analyst,0,True,0,False,0,False,0,0,0,False
+11,True,False,False,False,bachelors,0,0,0,0,RESEARCH INTERN,0,False,0,False,0,True,0,0,0,False
+12,True,False,False,False,Advanced,0,0,0,0,Associate Professor,0,False,0,False,>5,True,0,0,>5,False
+2,True,False,False,False,bachelors,0,0,0,0,Consulting Intern,0,False,0,False,0,False,0,0,0,False
+3,True,False,False,False,bachelors,0,0,0,0,Sports Agency Intern,0,True,0,False,0,False,0,0,0,False
+4,True,True,False,False,high school,0,0,0,0,Software Engineer Intern,0,False,0,True,0,False,0,0,2,False
+5,True,False,False,False,high school,0,0,0,0,Private Equity Summer Analyst,0,True,0,True,0,False,0,0,0,False
+6,True,False,False,False,masters,0,0,0,0,Chartering and Agency Intern,0,True,0,True,0,False,0,0,0,False
+7,True,False,True,False,high school,0,1,0,0,"Internship, Finance Leadership & Development Team",0,False,0,False,0,True,0,0,0,False
+8,False,False,False,False,bachelors,0,1,0,0,Intern for boutique investment bank,0,False,0,True,0,False,0,1,0,False
+9,True,True,False,False,high school,0,0,0,0,Summer Institutional Relations Analyst,0,False,0,False,0,False,0,0,0,False
