@@ -1,13 +1,19 @@
-ResumeID,Collaboration,Communication,Creativity,Customer Service,Education Level,Entertainment,Finance,Government,Healthcare,Job Title,Law,Leadership,Manufacturing,Organization/Planning,Other,Problem-Solving,Service Industry,Sports,Technology,Time Management
-1,False,True,False,False,bachelors,0,0,0,0,Private Equity Associate,0,True,0,True,0,False,0,0,0,False
-10,True,True,True,True,bachelors,0,0,0,0,Accelerator Challenge Technical Analyst,0,True,0,True,0,True,0,0,0,False
-11,True,True,True,False,bachelors,0,0,0,0,TEACHING ASSISTANT FOR NATURAL LANGUAGE PROCESSING,0,False,0,True,0,True,0,0,1,False
-12,False,True,False,False,Advanced,0,0,0,0,Associate Professor,0,True,0,True,>5,True,0,0,0,True
-2,False,True,False,False,bachelors,0,0,0,0,Consulting Intern,0,True,0,False,0,False,0,0,0,False
-3,False,True,False,False,bachelors,0,0,0,0,Sports Agency Intern,0,True,0,True,0,True,0,0,0,False
-4,True,True,False,False,bachelors,0,0,0,0,Software Engineer Intern,0,True,0,True,0,True,0,0,0,False
-5,False,True,False,False,bachelors,0,1,0,0,League Economics and Operations Intern,0,True,0,True,0,False,0,0,0,False
-6,False,True,False,False,bachelors,0,0,0,0,Summer Engineering Analyst,0,True,0,True,0,False,0,0,0,False
-7,False,False,False,False,bachelors,0,1,0,0,"Internship, Finance Leadership & Development Team",0,True,0,False,0,False,0,0,1,False
-8,False,True,False,True,bachelors,0,1,0,0,Intern for boutique investment bank,0,True,0,True,0,False,0,1,0,False
-9,False,True,False,False,bachelors,0,0,0,0,Summer Institutional Relations Analyst,0,True,0,False,0,False,0,0,0,False
+File Path,Collaboration,Communication,Creativity,Customer Service,Education Level,Entertainment,Finance,Government,Healthcare,Job Title,Law,Leadership,Manufacturing,Organization/Planning,Other,Problem-Solving,Service Industry,Sports,Technology,Time Management
+https://crowdhire.s3.amazonaws.com/r1.pdf,True,True,False,False,bachelors,0,0,0,0,Intern,0,True,0,True,0,False,0,0,0,False
+https://crowdhire.s3.amazonaws.com/r2.pdf,False,True,False,False,bachelors,0,0,0,0,ENGINEERING INTERN,0,False,0,False,0,True,0,0,0,False
+https://crowdhire.s3.amazonaws.com/r3.pdf,False,True,False,False,bachelors,0,0,0,0,Summer Associate,0,True,0,True,0,True,0,0,3,False
+https://crowdhire.s3.amazonaws.com/r4.pdf,True,True,False,False,bachelors,0,0,0,0,Software Engineer Intern,0,False,0,False,0,True,0,0,1,False
+https://crowdhire.s3.amazonaws.com/r5.pdf,False,True,False,False,bachelors,0,1,0,0,Private Equity Summer Analyst,0,True,0,False,0,True,0,0,0,False
+https://crowdhire.s3.amazonaws.com/r6.pdf,True,True,False,False,bachelors,0,0,0,0,Summer Engineering Analyst,0,True,0,False,0,False,0,0,0,False
+https://resumes213.s3.amazonaws.com/resume1.pdf,False,False,False,False,masters,0,0,0,0,Private Equity Associate,0,True,0,True,0,False,0,0,0,False
+https://resumes213.s3.amazonaws.com/resume10.pdf,True,True,True,True,bachelors,0,0,0,0,Accelerator Challenge Technical Analyst,0,True,0,True,0,True,0,0,0,False
+https://resumes213.s3.amazonaws.com/resume11.pdf,True,True,True,False,bachelors,0,0,0,0,TEACHING ASSISTANT FOR NATURAL LANGUAGE PROCESSING,0,False,0,True,0,True,0,0,1,False
+https://resumes213.s3.amazonaws.com/resume12.pdf,False,True,False,False,Advanced,0,0,0,0,Associate Professor,0,True,0,True,>5,True,0,0,0,True
+https://resumes213.s3.amazonaws.com/resume2.pdf,False,True,False,False,bachelors,0,0,0,0,Consulting Intern,0,True,0,False,0,False,0,2,0,False
+https://resumes213.s3.amazonaws.com/resume3.pdf,False,True,False,True,bachelors,0,0,0,0,Sports Agency Intern,0,True,0,True,0,True,0,0,0,False
+https://resumes213.s3.amazonaws.com/resume4.pdf,False,True,False,False,bachelors,0,0,0,0,Business Development Intern (Paid),0,True,0,True,0,False,0,0,0,True
+https://resumes213.s3.amazonaws.com/resume5.pdf,False,True,False,False,bachelors,0,1,0,0,League Economics and Operations Intern,0,True,0,True,0,False,0,0,0,True
+https://resumes213.s3.amazonaws.com/resume6.pdf,False,True,False,False,masters,0,0,0,0,Chartering and Agency Intern,0,True,0,True,0,False,0,0,0,False
+https://resumes213.s3.amazonaws.com/resume7.pdf,False,False,False,False,bachelors,0,1,0,0,"Internship, Finance Leadership & Development Team",0,True,0,False,0,False,0,0,1,False
+https://resumes213.s3.amazonaws.com/resume8.pdf,False,True,False,True,bachelors,0,1,0,0,Intern for boutique investment bank,0,True,0,True,0,False,0,1,0,False
+https://resumes213.s3.amazonaws.com/resume9.pdf,False,True,False,False,bachelors,0,0,0,0,Summer Institutional Relations Analyst,0,True,0,False,0,False,0,0,0,False
